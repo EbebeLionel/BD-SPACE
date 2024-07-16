@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CENTURION</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#"><img id="logo" src="https://cdn-icons-png.flaticon.com/128/16066/16066544.png" alt="CENTURION"/></a>
+        <div class="beside-logo"><h1><a href="#">CENTURION</a></h1></div>
+        <nav class="first-nav" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li>
+                <a href="#3D-models">3D models</a>
+            </li>
+            <li>
+                <a href="#custom-models">Custom models</a>
+            </li>
+        </ul>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+    
+     <section class="intro-pic">
+        <div class="search">
+            <span class="search-icon material-symbols-outlined">search</span>
+            <input class="search-input" type="search" name="search-bar" id="search-bar" placeholder="Search">
+        </div>
+     </section>
+
+     <!-----Content----->
+
+     <main>
+     <section>
+        <div class="parent-content">
+            <div class="second-nav">
+                <ul>
+                <li>
+                    <a href="#characters">Characters</a>
+                </li>
+                <li>
+                    <a href="#architecture">Architecture</a>
+                </li>
+                <li>
+                    <a href="#vehicles">Vehicles</a>
+                </li>
+                <li>
+                    <a href="#swords">Swords</a>
+                </li>
+                </ul>
+            </div>
+            <div class="info1 container">
+                <div class="info1-text">
+                <h1> Where imagination meets reality</h1>
+                <p>CENTURION is an interactive mind-blowing application that utilizes AI to fashion images</p>
+                </div>
+            <img src="https://cdn.cgdream.ai/_next/image?url=https%3A%2F%2Fapi.cgdream.ai%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUUyRnc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--26c712540287369ed6fd9952c7e66e9e75622a53%2Fe4c4bd12-274f-450c-9f76-e85fa39d9e91_0.png&w=512&q=95" alt="Ninja" class="info1-image">
+            
+            </div>
+            <div class="info2 container">
+                <div class="info2-text">
+                    <h1>Custom 3D model enthusiast?</h1>
+                    <button class="GS-button" id="GS-btn">Get started</button>
+                </div>
+                <img src="https://cdn.cgdream.ai/_next/image?url=https%3A%2F%2Fapi.cgdream.ai%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWk2Q3c9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--7bef2e8bb229bee100524674b8d679849965a36c%2F6955ae1d-eba5-4c1f-8f4a-8247ecfa5347_0.png&w=512&q=90" alt="" class="info2-image">
+            </div>
+            <div class="info3 container2">
+                <div class="info3-text">
+                    <h1>3D Model Marketplace</h1>
+                    <p>Choose from a variety of 3D models for use in architecture, gaming, VR, advertisement, 3D printing, animation</p>
+                </div>
+                <div class="info3-content1">
+                    <img src="https://cdn.cgdream.ai/_next/image?url=https%3A%2F%2Fapi.cgdream.ai%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3o2RHc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--e841dadb0a84741279ef91f43d295a93b7ac8872%2F5b40bece-9d79-404b-95a8-72adb5b7f2b5_0.png&w=512&q=90" alt="video game" class="info3-image1">
+                    <p class="info3-p1">Buy  3D models for your video games</p>
+                </div>
+                <div class="info3-content2">
+                    <img src="https://cdn.cgdream.ai/_next/image?url=https%3A%2F%2Fapi.cgdream.ai%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBellTSFE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--6904d1220f4631d3d2e9eb52c1a3cfd06ca3f5ee%2Fd27b80ff-c651-4559-b212-a93ee354dcc1_0.png&w=512&q=90" alt="3D model" class="info3-image2">
+                    <p class="info3-p2">Buy  3D models for your 3D printing</p>
+                </div>
+                <div class="info3-content3">
+                    <img src="https://cdn.cgdream.ai/_next/image?url=https%3A%2F%2Fapi.cgdream.ai%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmt6SlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--c936eb592cade01150d5032353bf6877de2eaf47%2Fd22006f6-d457-4aff-8872-2d094fb7500f_0.png&w=512&q=90" alt="architecture" class="info3-image3">
+                    <p class="info3-p3">Buy  3D models for your architecture</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
